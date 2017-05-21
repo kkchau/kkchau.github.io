@@ -9,6 +9,14 @@ html {
     background-color:rgb(250, 250, 250);
 }
 
+a:link{
+    color: rgb(160,170,170);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(160,170,170);
+}
 
 .banner {
     color: rgba(170,180,190,.8);
@@ -17,19 +25,27 @@ html {
     text-align: center;
     margin: 1em;
     padding: 2.5em;
+    text-decoration: none;
 }
 
 .banner h1 {
-    color: rgba(170,180,190,.8);
+    color: rgb(170,180,190);
     letter-spacing: 0.5em;
     word-spacing: -0.25em;
     font-weight: 500;
     font-size: 3vw;
 }
 
-.banner a:link{
-    color: rgba(160,170,170,.8);
-    text-decoration: none;
+.nav-bar {
+    font-size: 1vw;
+    margin: 2em;
+}
+
+.contact {
+    color: rgba(170,180,190,.8);
+    font-family: "Raleway", sans-serif;
+    font-size: 1vw;
+    text-align: center;
 }
 
 .centerblock {
