@@ -44,6 +44,10 @@ html {
     margin: auto;
 }
 
-.centerblock h1{
+.centerblock h1 {
     font-size: 3vw;
+}
+
+.menu-container {
+    display: flex;
 }
